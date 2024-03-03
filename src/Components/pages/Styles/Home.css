@@ -43,29 +43,15 @@ body, html {
   margin: 3px;
 }
 
-.home-container a {
-  background-color: #000000;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #ecf0f1;
-  text-decoration: none;
-  font-size: 1em;
-  width: 130px;
-  border-radius: 5px;
-}
-
 @media screen and (max-width: 1000px) {
   .home-container h1 {
     font-size: 90px;
-    border: 1px solid rgb(51, 153, 73);
   }
 }
 
 @media screen and (max-width: 800px) {
   .home-container h1 {
     font-size: 60px;
-    border: 1px solid rebeccapurple;
   }
 
   .home-container p {
