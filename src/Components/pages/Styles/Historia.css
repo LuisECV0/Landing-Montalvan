@@ -1,0 +1,31 @@
+.historia-container {
+    padding: 20px;
+    background-color: #eaeaea;
+    text-align: center;
+  }
+  
+  .historia-container h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .historia-item {
+    margin-bottom: 40px;
+  }
+  
+  .historia-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .historia-item p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Puedes agregar más estilos según tus preferencias */
+  

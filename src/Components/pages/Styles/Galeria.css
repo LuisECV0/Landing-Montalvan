@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mis-espacios {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.galeria {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.imagen-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 60%; 
+    margin: 0 auto;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.controles {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controles .izquierda,
+.controles .derecha {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    color: rgb(213, 212, 212);
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.controles .izquierda {
+    left: 0;
+}
+
+.controles .derecha {
+    right: 0;
+}
+
+.controles .izquierda:hover,
+.controles .derecha:hover {
+    color: #343f2e;
+}

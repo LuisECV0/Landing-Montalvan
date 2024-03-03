@@ -1,0 +1,50 @@
+.servicios-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .servicios-container h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .servicio-item {
+    margin-bottom: 40px;
+  }
+  
+  .servicio-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .servicio-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .servicio-item p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .servicio-item {
+      margin-bottom: 20px;
+    }
+  
+    .servicio-item h3 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+  
+    .servicio-item p {
+      font-size: 1em;
+    }
+  }
+    
