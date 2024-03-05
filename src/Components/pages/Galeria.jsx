@@ -4,6 +4,7 @@ import '../pages/Styles/Galeria.css';
 const MisEspacios = () => {
   const images = [
     "https://picsum.photos/id/1015/1000/600",
+    "https://firebasestorage.googleapis.com/v0/b/login-89b46.appspot.com/o/cat.jpg?alt=media&token=1eb20553-6b05-4742-92e3-6e390c0b19b7",
     "https://picsum.photos/id/1019/1000/600"
   ];
 
