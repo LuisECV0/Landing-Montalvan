@@ -15,12 +15,12 @@ body, html {
   align-items: center;
   justify-content: center; 
   text-align: center;
-  background-image: url('../../Imgs/AI.jpeg');
+  background-image: url('../../Imgs/hacienda.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  color: #000000; 
+  color: #ffffff; 
   height: 100vh;
   margin: 0;
 }
